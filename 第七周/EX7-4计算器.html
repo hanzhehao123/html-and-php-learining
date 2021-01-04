@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title> 计算器 </title>
+  <meta name="Generator" content="EditPlus">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+ </head>
+
+ <body>
+ <form name="form1">
+  输入：<input type=text name="num1" size=8>&nbsp;&nbsp;&nbsp;
+	<select name="compute" size=1>
+	<option value="加">+<option value="减">-<option value="乘" selected>*
+	<option value="除">÷<option value="次方">^<option value="根号">√</select>&nbsp;&nbsp;&nbsp;
+	<input type=text name="num2" size=8>&nbsp;&nbsp;&nbsp;= 
+	<input type=text name="num3"  size=8 >&nbsp;&nbsp;&nbsp;<br><br>
+	 <input type=submit value="计算" onClick=show()>
+  </form>
+  <script language="JavaScript">
+
+  function show()
+{
+  var se=document.form1.compute.value;
+  var a=document.form1.num1.value;
+  var b=document.form1.num2.value;
+  var result=0;
+  <!--other code-->
+  if(se=="除")
+{
+  if(document.form1.num2.value==0)
+ {
+   alert("除数不能为0");
+ }
+ else
+{
+ result=document.form1.num1.value/document.form1.num2.value;
+ result=result.toFixed(3); <!--保留三位-->
+ document.form1.num3.value=result;
+ alert("结果为"+result);
+}
+}
+////////////////////////////////
+// other code
+  else if(se=="加")
+{
+  result=a*1+b*1;
+  alert("结果为"+result);
+  document.form1.num3.value=result;
+}
+   else if(se=="减")
+{
+  result=a-b;
+  alert("结果为"+result);
+  document.form1.num3.value=result;
+}
+   else if(se=="乘")
+{
+  result=a*b;
+  alert("结果为"+result);
+  document.form1.num3.value=result;
+}
+   else if(se=="次方")
+{
+  result=Math.pow(a,b);
+  alert("结果为"+result);
+  document.form1.num3.value=result;
+}
+
+   else if(se=="根号")
+{
+  result=Math.pow(a,1/b);
+  alert("结果为"+result);
+  document.form1.num3.value=result;
+}
+// Math.pow(m,n)可以计算m的n次方
+// eg:Math.pow(4,1/2) 结果为4的平方根2
+//////////////////////////////
+}
+  </script>
+
+ </body>
+</html>

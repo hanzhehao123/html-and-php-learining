@@ -1,0 +1,30 @@
+div {
+    background-color: lightgrey;
+    width: 300px;
+    border-top:5px;
+	border-bottom:5px;
+	border-left:10px;
+	border-right:10px;
+	border-style:solid;
+	border-color:yellow;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-right:40px;
+    padding-left:40px;
+    margin: 20px;
+}
+
+td{
+	color:white;
+	text-align:center;
+    border-top: 5px solid black;
+	border-bottom:5px solid black;
+	border-left:10px solid black;
+	border-right:10px solid black;
+	border-style:solid;
+	border-color:red;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:8px;
+	padding-right:8px;
+}

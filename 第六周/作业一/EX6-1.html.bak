@@ -1,0 +1,17 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title> ¿ò¼ÜÑÝÊ¾ </title>
+  <meta name="Generator" content="EditPlus">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+ </head>
+<frameset rows="30%,70%" bordercolor="blue">
+	<frame src="http://www.hao123.com" noresize>
+	<frameset cols="60%,40%">		
+		<frame src="http://www.baidu.com" noresize>		
+		<frame src="http://www.sina.com.cn" noresize>		
+	</frameset>
+</frameset>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title> 表单的使用 </title>
+  <meta name="Content-type" content="text/html;charset=GB2312">
+  <meta name="Generator" content="EditPlus">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+ </head>
+
+ <body>
+  <form action="mailto:495471636@qq.com" method="post" enctype="text/plain" accept-charset="utf-8" onsubmit="document.charset='utf-8'" >
+  <center><h2><marquee width=50% loop=-1 direction=right>个人资料</marquee></h2></center>
+  姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：<input type=text name="xm" size=12><br>
+  性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别：<input type=radio name="sex" value="男" checked>男
+									  <input type=radio name="sex" value="女">女<br>
+  生&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日：<input type=text name="year" size=5>年
+			                          <input type=text name="month" size=5>月
+			                          <input type=text name="day" size=5>日<br>
+  <table>
+	<tr>
+		<td>个人爱好：
+		<td><input type=checkbox name="爱好" value="文学">文学
+		<td><input type=checkbox name="爱好" value="体育">体育
+		<td><input type=checkbox name="爱好" value="艺术">艺术
+		<td><input type=checkbox name="爱好" value="旅游">旅游
+	</tr>
+	<tr>
+		<td>
+		<td><input type=checkbox name="爱好" value="美食">美食
+		<td><input type=checkbox name="爱好" value="音乐">音乐
+		<td><input type=checkbox name="爱好" value="其它">其它
+	</tr>
+  </table>
+  学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;历：<select name="学历" size=1>
+									  <option value="初中">初中<option value="高中">高中<option value="大学" selected>大学
+									  <option value="硕士">硕士<option value="博士">博士<option value="其它">其它</select><br>
+  个人简介：<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textarea name=comment rows=5 cols=60></textarea><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=submit value="发送">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=reset value="重设">
+  </form>
+ </body>
+</html>

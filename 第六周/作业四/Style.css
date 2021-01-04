@@ -1,0 +1,146 @@
+body 
+{ 
+  padding:10px; 
+  margin:10px; 
+} 
+div 
+{ 
+	border:0px solid #000; 	
+	padding:1px;  
+}
+ 
+#Head 
+{ 
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#CCCCCC;
+	height: 100px;
+	width: 800px;
+}
+
+#Menu 
+{ 
+	margin-bottom: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	background:#8EE5EE;
+	height: 28px;
+	width: 800px;
+}
+ 
+#Menu ul 
+{
+	list-style:none;
+	margin-top: 7px;
+}
+ 
+#Menu ul li 
+{
+	float:left;
+	margin-left: 15px;
+}
+
+
+#Menu ul li a {
+    	display:block;
+	height:17px;
+    	width:85px;  
+	text-align:center;
+	padding-bottom: 0px;
+	padding-top:2px;	
+    	text-decoration:none; 
+    	color:purple;
+	font-family:"ºÚÌå"; 
+}
+
+#Menu ul li a:hover {
+    	background:gray;
+}
+
+.menuDivid 
+{
+	width:1px;
+	height: 18px;
+	background: #999;
+}
+ 
+ 
+#Middle
+{
+	margin-bottom: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+} 
+ 
+#Sidebar_a 
+{ 
+	margin-bottom:1px; 
+	background-color:#C1FFC1;
+	float: left;
+	width: 144px; 
+	height: 200px;
+} 
+
+#Sidebar_a ul 
+{
+	list-style: url(Source/pixer.gif);
+	margin-top: 22px;
+	padding-left: 25px;
+	margin-left: 10px;
+}
+
+#Sidebar_a ul li
+{
+	margin-top: 15px;
+}
+
+
+#Sidebar_a ul li a {
+    text-decoration:none; 
+    color:red;
+	font-family:"»ªÎÄ·ÂËÎ"; 
+}
+
+
+#Sidebar_b 
+{ 
+	margin-bottom:1px; 
+	float: right;
+	background-color: green;
+	width: 146; 
+	height: 200px;	
+} 
+
+
+#Content 
+{ 
+	margin-bottom: 1px;
+	margin-left:auto;
+	margin-right:auto;	 
+	background-color:#dddddd;  
+	height: 200px;
+	width: 495px;
+} 
+
+#Footer 
+{
+	clear: both;   
+	margin-left:auto;
+	margin-right:auto;		
+	background-color:blue; 
+	width: 800px;
+} 
+
+
+.Notice
+{
+  display: block;
+  text-align:center;
+  font-size: 12px;
+}
+
+img 
+{
+	float:right;
+}

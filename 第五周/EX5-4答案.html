@@ -1,0 +1,77 @@
+<html>
+ <head>
+  <title> CSS浮动布局 </title>
+  <meta name="Generator" content="EditPlus">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <style type="text/css">
+	#test ul
+	{
+	float:left;
+	width:100%;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	}
+	#test a
+	{
+	float:left;
+	width:7em;
+	text-decoration:none;
+	color:white;
+	background-color:purple;
+	padding:0.2em 0.6em;
+	border-right:1px solid white;
+	}
+	#test li {display:inline}
+	a:hover {background-color:#ff3300}
+	#test3 a
+	{
+	  color:deeppink;
+	}
+	#test2 a
+	{
+	  color:gray;
+	}	
+  </style>
+ </head>
+
+ <body>
+  <div id="test" >
+	<ul>
+		<li><a href="#">Link one</a></li>
+		<li><a href="#">Link two</a></li>
+		<li><a href="#">Link three</a></li>
+		<li><a href="#">Link four</a></li>
+	</ul>
+  </div>
+  <div id="test1" >
+	<ul>
+		<li><a href="#">Link one</a></li>
+		<li><a href="#">Link two</a></li>
+		<li><a href="#">Link three</a></li>
+		<li><a href="#">Link four</a></li>
+	</ul>
+  </div>
+  <div id="test2" style="float:right">
+	<ul>
+		<li><a href="#">向右浮动一</a></li>
+		<li><a href="#">向右浮动二</a></li>
+		<li><a href="#">向右浮动三</a></li>
+		<li><a href="#">向右浮动四</a></li>
+	</ul>
+  </div>
+  <div id="test3">
+	<ul>
+		<li><a href="#">Link one</a></li>
+		<li><a href="#">Link two</a></li>
+		<li><a href="#">Link three</a></li>
+		<li><a href="#">Link four</a></li>
+	</ul>
+  </div>
+  <p style="clear:right">
+	在上面的例子中，请把id为test中的ul 元素和 a 元素浮向左浮动，li 元素显示为行内元素（元素前后没有换行），这样就可以使列表排列成一行，并将id为test2中的元素设为向右浮动。
+  </p>
+ </body>
+</html>

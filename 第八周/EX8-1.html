@@ -1,0 +1,22 @@
+<html>
+ <head>
+ <script type="text/javascript" language="javascript">
+ {      
+   function getEvent()
+   {
+		eventWin=open('','','width=200,height=100');	
+		with(eventWin.document){
+		write("事件类型：",event.type);
+		write("<br>鼠标的X坐标：",event.screenX);
+		write("<br>鼠标的Y坐标：",event.screenY);
+	}
+   }
+   document.write("单击...");
+   document.onmousedown=getEvent;
+ }
+ </script>
+ </head>
+ <body>
+ </body>
+</html>
+ 

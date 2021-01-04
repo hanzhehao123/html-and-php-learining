@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title> CSS选择器的使用 </title>
+  <meta name="Generator" content="EditPlus">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <STYLE type="text/css">
+	h1 { font-family: 楷体 }/*元素选择器*/
+	p,h1{color:green}/*组合选择器*/
+	.right{text-align:right}/*类选择器*/
+	#intro{text-decoration:line-through}/*ID选择器*/
+	h1[underline]{text-decoration: underline;color:red}/*属性选择器*/
+	
+  </STYLE>
+ </head>
+
+ <body>
+  <strong>
+		作业要求<br/>
+		<ol type="1">
+			<li>将id为baidu的标签,设置背景图片,文字字体设置为楷体</li>			
+			<li>将id为main的标签样式设成与ID为baidu的标签一样,思考有哪几种方法?</li>
+		<ol>
+	</strong>
+  <br/>
+  <br/>	
+    <h1>字体为楷体，颜色为绿色</h1>
+	<p class="right">颜色为绿色，向右对齐</p>
+	<h1 id="intro">这个H1标题字体为楷体，绿色，有中划线</h1>
+	<h1 underline="1">字体为楷体，红色，有下划线</h1>
+	<a id="baidu" href="http://www.baidu.com">百度一下，你就知道</a>
+	<h3 id=main>请按作业要求设置</h3>
+ </body>
+</html>
